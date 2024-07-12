@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Рандомные изображения из Unsplash</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <div class="image-container">
+            <img id="random-image" src="" alt="Random Image">
+        </div>
+        <div class="info">
+            <p>Автор: <span id="photographer"></span></p>
+            <p>Описание: <span id="description"></span></p>
+            <p>Просмотров: <span id="views"></span></p>
+        </div>
+        <button id="like-button">Нравится</button>
+        <span id="like-counter">0</span>
+        <button id="next-button">Дальше</button>
+        <div id="history">
+            <h3>История запросов</h3>
+            <ul id="history-list"></ul>
+            <div id="pagination"></div>
+        </div>
+    </div>
+</body>
+</html>
